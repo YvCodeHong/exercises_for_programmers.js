@@ -6,14 +6,14 @@
 // 2. User inputs: "House"
 // 3. Returns: House has five characters
 
-//ES5
-function wordlength() {
-  var username = prompt("Please enter a string?");
-  var str = username.length;
-  alert( username + "has" + ' ' + str + ' '+ "characters");
-};
+// //ES5
+// function wordlength() {
+//   var username = prompt("Please enter a string?");
+//   var str = username.length;
+//   alert( username + "has" + ' ' + str + ' '+ "characters");
+// };
 
-console.log(wordlength());
+// console.log(wordlength());
 
 //ES6
 const wordlength2 = () => {
@@ -21,3 +21,4 @@ const wordlength2 = () => {
   const str = username.length;
   alert(`${username} has ${str} characters`)
 };
+

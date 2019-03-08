@@ -8,10 +8,12 @@
 // 3. return : author says ".."
 
 
-function printingquotes() {
-  var username = prompt("What is the quote?");
-  var author = prompt("Which author?");
+const printingquotes = () => {
+  const username = prompt("What is the quote?");
+  const author = prompt("Which author?");
   alert( author + ' '+ "says:" + ' ' + \""+username+"\"" );
 };
 
 console.log(printingquotes());
+
+
